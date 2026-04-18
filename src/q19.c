@@ -1,7 +1,6 @@
 //  Write a function named calculateFactorialSeries that takes an integer n as input and prints the factorial series up to n.
 #include <stdio.h>
 
-// Function returns int but is used for printing factorial series
 int calculateFactorialSeries(int n) {
     int i, j, fact;
 
@@ -17,8 +16,7 @@ int calculateFactorialSeries(int n) {
         printf("%d ", fact);
     }
 
-    return 0;  // no meaningful value returned
-}
+    return 0;  
 
 int main() {
     int n;

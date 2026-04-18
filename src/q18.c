@@ -1,7 +1,6 @@
 // Write a function named findPrimeNumbers that takes an integer n as input and prints all prime numbers from 1 to n.
 #include <stdio.h>
 
-// Function returns int (but only used for printing primes)
 int findPrimeNumbers(int n) {
     int i, j, isPrime;
 
@@ -20,8 +19,7 @@ int findPrimeNumbers(int n) {
         }
     }
 
-    return 0;  // no meaningful value returned
-}
+    return 0; 
 
 int main() {
     int n;

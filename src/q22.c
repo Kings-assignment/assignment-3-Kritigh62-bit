@@ -1,7 +1,6 @@
 // Write a recursive function named calculateFibonacci that takes an integer n as input and returns the nth Fibonacci number. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the two preceding numbers.
 #include <stdio.h>
 
-// Function prototype
 int calculateFibonacci(int n);
 
 int main() {
@@ -21,7 +20,7 @@ int main() {
     return 0;
 }
 
-// Recursive function definition
+// Recursive function 
 int calculateFibonacci(int n) {
     if (n == 0)
         return 0;

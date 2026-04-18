@@ -1,7 +1,5 @@
 // Write a function named calculateGCD that takes two integers as input and returns their greatest common divisor (GCD).
 #include <stdio.h>
-
-// Function prototype
 int calculateGCD(int a, int b);
 
 int main() {

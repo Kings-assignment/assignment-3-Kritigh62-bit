@@ -1,7 +1,5 @@
 //  Write a recursive function named countOccurrences that takes a string and a character as input and returns the number of times the character appears in the string.
 #include <stdio.h>
-
-// Function prototype
 int countOccurrences(char str[], char ch, int i);
 
 int main() {
@@ -19,7 +17,7 @@ int main() {
     return 0;
 }
 
-// Recursive function definition
+// Recursive function 
 int countOccurrences(char str[], char ch, int i) {
     if (str[i] == '\0')
         return 0;

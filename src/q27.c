@@ -1,7 +1,5 @@
 // Write a recursive function named printTriangle that takes an integer n as input and prints a triangle of asterisks (*) with n rows.
 #include <stdio.h>
-
-// Function prototype
 int printTriangle(int n);
 
 int main() {
@@ -15,7 +13,7 @@ int main() {
     return 0;
 }
 
-// Recursive function definition
+// Recursive function
 int printTriangle(int n) {
     if (n == 0)
         return 0;

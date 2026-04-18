@@ -1,7 +1,6 @@
 // Write a function named countOccurrences that takes a string and a character as input and returns the number of times the character appears in the string.
 #include <stdio.h>
 
-// Function prototype
 int countOccurrences(char str[], char ch);
 
 int main() {

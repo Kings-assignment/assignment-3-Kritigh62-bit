@@ -1,7 +1,6 @@
 // Write a recursive function named calculateFactorial that takes an integer n as input and returns its factorial.
 #include <stdio.h>
 
-// Function prototype
 int calculateFactorial(int n);
 
 int main() {
@@ -15,7 +14,7 @@ int main() {
     return 0;
 }
 
-// Recursive function definition
+// Recursive function 
 int calculateFactorial(int n) {
     if (n == 0 || n == 1)
         return 1;
